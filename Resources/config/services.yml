@@ -1,0 +1,5 @@
+services:
+    _defaults:
+        public: true
+    home_animatee.listener.hooks:
+        class: Home\AnimateeBundle\EventListener\HookListener

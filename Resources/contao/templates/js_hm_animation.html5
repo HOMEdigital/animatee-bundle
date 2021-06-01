@@ -1,0 +1,11 @@
+<?php $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/homeanimatee/aos.js'; ?>
+<?php $GLOBALS['TL_CSS'][] = 'bundles/homeanimatee/aos.css'; ?>
+
+<script>
+    AOS.init({
+        offset: 120,
+        duration: 400,
+        easing: 'ease',
+        delay: 0
+    });
+</script>
